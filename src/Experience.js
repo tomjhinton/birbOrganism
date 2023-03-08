@@ -10,7 +10,7 @@ import Title from "./Title/Title.js"
 
 
 export default function Experience(props) {
-  const { nodes, materials } = useGLTF("/buddy.glb");
+  const { nodes, materials } = useGLTF("buddy.glb");
 
 
   const headMaterial = useRef()
