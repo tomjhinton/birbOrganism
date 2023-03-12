@@ -404,7 +404,7 @@ console.log(body1.current)
   );
 }
 
-useGLTF.preload("/buddy.glb");
+useGLTF.preload("buddy.glb");
 
 
 
